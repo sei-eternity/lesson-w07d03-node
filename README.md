@@ -69,9 +69,10 @@ Let's install our first useful NPM package.  We will use ESLint to help follow b
 - [eslint-plugin-import](https://www.npmjs.com/package/eslint-plugin-import)
 - [eslint-plugin-jsx-a11y](https://www.npmjs.com/package/eslint-plugin-jsx-a11y)
 - [eslint-plugin-react](https://www.npmjs.com/package/eslint-plugin-react)
+- [babel-eslint](https://www.npmjs.com/package/babel-eslint)
 
 ```
-npm install eslint eslint-config-airbnb eslint-plugin-import eslint-plugin-jsx-a11y eslint-plugin-react --global
+npm install eslint eslint-config-airbnb eslint-plugin-import eslint-plugin-jsx-a11y eslint-plugin-react babel-eslint --global
 ```
 ESLint allows us to have different JS rules enforced for every project or we can set rules to be followed globally.  To set them globally we will need to add a `.eslintrc` file to our home directory and add some settings.
 
@@ -99,7 +100,7 @@ Then in the `.eslintrc` file add
 ```
 Now we have to set up VSCode to use the NPM package.
 ```
-Ctrl + Shift + X
+CMD + Shift + X
 ```
 Search for `ESLint` and install.  
 

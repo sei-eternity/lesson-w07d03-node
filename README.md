@@ -21,9 +21,12 @@ For windows users or those not using `brew`, follow [install steps here](https:/
 ## Node JS REPL
 
 With Node, we can enter a javascript REPL environment, similar to our browser console.
+
 To do this, we simply run `node` in the terminal.
 Notice how now our terminal starts with `>`.
+
 We are now in a javascript REPL environment so commands like `ls` or `cd` will not work.  But commands like `const name = 'Mike'` will.
+
 To exit the REPL we can type `.exit` or use `ctrl + c`.
 
 ```

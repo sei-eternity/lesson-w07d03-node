@@ -101,5 +101,6 @@ Now we have to set up VSCode to use the NPM package.
 Ctrl + Shift + X
 ```
 Search for `ESLint` and install.  
-After that, let's restart VScode and make sure ESLint is working!
+
+Let's restart VScode and make sure ESLint is working by opening [eslintPractice.js](eslintPractice.js)
 

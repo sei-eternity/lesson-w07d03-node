@@ -107,5 +107,5 @@ CMD + Shift + X
 ```
 Search for `ESLint` and install.  
 
-Let's restart VScode and make sure ESLint is working by opening [eslintPractice.js](eslintPractice.js)
+Let's restart VScode and make sure ESLint is working by opening [js/eslintPractice.js](js/eslintPractice.js)
 

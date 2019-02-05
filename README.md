@@ -66,8 +66,12 @@ Now let's use our [js/funnyFaces.js](js/funnyFaces.js) file to use the package i
 Let's install our first useful NPM package.  We will use ESLint to help follow best practices in JS.  We are installing more than one package globally in a single command.
 - [eslint](https://www.npmjs.com/package/eslint)
 - [eslint-config-airbnb](https://www.npmjs.com/package/eslint-config-airbnb)
+- [eslint-plugin-import](https://www.npmjs.com/package/eslint-plugin-import)
+- [eslint-plugin-jsx-a11y](https://www.npmjs.com/package/eslint-plugin-jsx-a11y)
+- [eslint-plugin-react](https://www.npmjs.com/package/eslint-plugin-react)
+- []()
 ```
-npm install eslint eslint-config-airbnb --global
+npm install eslint eslint-config-airbnb eslint-plugin-import eslint-plugin-jsx-a11y eslint-plugin-react --global
 ```
 ESLint allows us to have different JS rules enforced for every project or we can set rules to be followed globally.  To set them globally we will need to add a `.eslintrc` file to our home directory and add some settings.
 

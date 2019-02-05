@@ -69,7 +69,7 @@ Let's install our first useful NPM package.  We will use ESLint to help follow b
 - [eslint-plugin-import](https://www.npmjs.com/package/eslint-plugin-import)
 - [eslint-plugin-jsx-a11y](https://www.npmjs.com/package/eslint-plugin-jsx-a11y)
 - [eslint-plugin-react](https://www.npmjs.com/package/eslint-plugin-react)
-- []()
+
 ```
 npm install eslint eslint-config-airbnb eslint-plugin-import eslint-plugin-jsx-a11y eslint-plugin-react --global
 ```

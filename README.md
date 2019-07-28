@@ -64,6 +64,19 @@ npm install cool-ascii-faces --global
 
 Now let's use our [js/funnyFaces.js](js/funnyFaces.js) file to use the package in our JS file.
 
+<details>
+<summary>Solution</summary>
+
+```js
+// require the package
+var cool = require('/usr/local/lib/node_modules/cool-ascii-faces');
+
+// use the package
+console.log(cool())
+```
+
+</details>
+
 ### ESLint
 
 Let's install our first useful NPM package.  We will use ESLint to help follow best practices in JS.  We are installing more than one package globally in a single command.
